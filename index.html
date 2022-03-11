@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing - Online Store</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+
+    
+    <div class="nav">
+        <img src="img/dark-logo.png" class="brand-logo" alt="">
+        <div class="nav-items">
+            <div class="search">
+                <input type="text" class="search-box" placeholder="Search brand">
+                <button class="search-btn">search</button>
+            </div>
+            <a href="login.html"><img src="img/user.png"></a>
+            <a onclick="setLocalStorage()" href="my purchases.html"><img src="img/cart.png"></a>
+
+        </div>
+
+    </div>
+
+    <ul class="links-cont">
+        <li class="link-item"> <a href="#" class="link">Home</a> </li>
+        <li class="link-item"> <a href="#" class="link">Women</a> </li>
+        <li class="link-item"> <a href="#" class="link">Men</a> </li>
+        <li class="link-item"> <a href="#" class="link">Accssesories</a> </li>
+    </ul>
+
+    <header class="hero-section"></header>
+
+    <!-- cards-container -->
+
+    <section class="product">
+    <h2 class="product-cat">best selling</h2>
+    <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
+    <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
+
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card1.png" class="product-thumb">
+                <button onclick="add('img/card1.png')" class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card2.png" class="product-thumb">
+                <button onclick="add('img/card2.png')" class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card3.png" class="product-thumb">
+                <button onclick="add('img/card3.png')" class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card4.png" class="product-thumb">
+                <button onclick="add('img/card4.png')" class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card5.png" class="product-thumb">
+                <button onclick="add('img/card5.png')" class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card6.png" class="product-thumb">
+                <button onclick="add('img/card6.png')"class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card7.png" class="product-thumb">
+                <button onclick="add('img/card7.png')" class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card8.png" class="product-thumb">
+                <button onclick="add('img/card8.png')" class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card9.png" class="product-thumb">
+                <button onclick="add('img/card9.png')" class="card-btn">add to cart</button>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<!-- cllection -->
+
+<section class="collection-container">
+    <a href="#" class="collection">
+        <img src="img/women-collection.png" alt="">
+        <p class="collection-title">women <br> apparles</p>
+    </a>
+    <a href="#" class="collection">
+        <img src="img/men-collection.png" alt="">
+        <p class="collection-title">men <br> apparles</p>
+    </a>
+    <a href="#" class="collection">
+        <img src="img/accessories-collection.png" alt="">
+        <p class="collection-title">accessories <br> apparles</p>
+    </a>
+</section>
+<section class="product">
+    <h2 class="product-cat">Shirts</h2>
+    <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
+    <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
+
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card1.png" class="product-thumb">
+                <button onclick="add('img/card1.png')"class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card2.png" class="product-thumb">
+                <button onclick="add('img/card2.png')" class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card3.png" class="product-thumb">
+                <button onclick="add('img/card3.png')" class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card4.png" class="product-thumb">
+                <button onclick="add('img/card4.png')" class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card5.png" class="product-thumb">
+                <button onclick="add('img/card5.png')" class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card6.png" class="product-thumb">
+                <button onclick="add('img/card6.png')" class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card7.png" class="product-thumb">
+                <button onclick="add('img/card7.png')" class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card8.png" class="product-thumb">
+                <button onclick="add('img/card8.png')"class="card-btn">add to cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="img/card9.png" class="product-thumb">
+                <button onclick="add('img/card9.png')"class="card-btn">add to cart</button>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="product">
+        <h2 class="product-cat">Shoes</h2>
+        <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
+    
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="shoes/1.jpeg" class="product-thumb">
+                    <button onclick="add('shoes/1.jpg')" class="card-btn">add to cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="shoes/2.jpg" class="product-thumb">
+                    <button onclick="add('shoes/2.jpg')" class="card-btn">add to cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="shoes/3.jpg" class="product-thumb">
+                    <button onclick="add('shoes/3.jpg')"class="card-btn">add to cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="shoes/4.jpg" class="product-thumb">
+                    <button onclick="add('shoes/4.jpg')"class="card-btn">add to cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="shoes/5.jpg" class="product-thumb">
+                    <button onclick="add('shoes/5.jpg')"class="card-btn">add to cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="shoes/7.jpg" class="product-thumb">
+                    <button onclick="add('shoes/7.jpg')"class="card-btn">add to cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="shoes/8.jpg" class="product-thumb">
+                    <button onclick="add('shoes/8.jpg')"class="card-btn">add to cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="shoes/9.jpg" class="product-thumb">
+                    <button onclick="add('shoes/9.jpg')"class="card-btn">add to cart</button>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- axesories -->
+        <section class="product">
+            <h2 class="product-cat">Accessories</h2>
+            <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
+            <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
+        
+            <div class="product-container">
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="img/New folder/WhatsApp Image 2022-03-10 at 9.04.56 PM (1).jpeg" class="product-thumb">
+                        <button onclick="add('img/New folder/WhatsApp Image 2022-03-10 at 9.04.56 PM (1).jpeg')" class="card-btn">add to cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="img/New folder/WhatsApp Image 2022-03-10 at 9.04.56 PM.jpeg" class="product-thumb">
+                        <button onclick="add('img/New folder/WhatsApp Image 2022-03-10 at 9.04.56 PM.jpeg')" class="card-btn">add to cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="img/New folder/WhatsApp Image 2022-03-10 at 9.04.57 PM.jpeg" class="product-thumb">
+                        <button onclick="add('img/New folder/WhatsApp Image 2022-03-10 at 9.04.57 PM.jpeg')"class="card-btn">add to cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="img/New folder/WhatsApp Image 2022-03-10 at 9.04.58 PM.jpeg" class="product-thumb">
+                        <button onclick="add('img/New folder/WhatsApp Image 2022-03-10 at 9.04.58 PM.jpeg')"class="card-btn">add to cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="img/New folder/WhatsApp Image 2022-03-10 at 9.04.59 PM.jpeg" class="product-thumb">
+                        <button onclick="add('img/New folder/WhatsApp Image 2022-03-10 at 9.04.59 PM.jpeg')"class="card-btn">add to cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="img/New folder/WhatsApp Image 2022-03-10 at 9.05.00 PM.jpeg" class="product-thumb">
+                        <button onclick="add('img/New folder/WhatsApp Image 2022-03-10 at 9.05.01 PM (1).jpeg')"class="card-btn">add to cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="img/New folder/WhatsApp Image 2022-03-10 at 9.05.01 PM.jpeg" class="product-thumb">
+                        <button onclick="add('img/New folder/WhatsApp Image 2022-03-10 at 9.05.01 PM.jpeg   ')"class="card-btn">add to cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="img/New folder/WhatsApp Image 2022-03-10 at 9.05.04 PM.jpeg" class="product-thumb">
+                        <button onclick="add('img/New folder/WhatsApp Image 2022-03-10 at 9.05.04 PM.jpeg')"class="card-btn">add to cart</button>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+
+
+
+        <footer>
+            <div class="footer-content">
+                <img src="img/light-logo.png" class="logo" alt="">
+                <div class="heder"  style="width:  10%; " ><a href="https://www.facebook.com/home.php" target="_blank">
+                    <img style="border-radius: 50%;  " src= "img/Facebook-icon.png" r alt="Facebook-icon "  width="60% ; "  ></div>
+                    <div class="heder"  style="width:  10%; " ><a href="https://www.facebook.com/home.php" target="_blank">
+                        <img style="border-radius: 50%;  " src= "img/download.jpg" r alt="Facebook-icon "  width="60% ; "  ></div>
+                        <div class="heder"  style="width:  10%; " ><a href="https://www.facebook.com/home.php" target="_blank">
+                            <img style="border-radius: 50%;  " src= "img/download (1).jpg" r alt="Facebook-icon "  width="60% ; "  ></div>   
+                            <div class="heder"  style="width:  10%; " ><a href="https://www.facebook.com/home.php" target="_blank">
+                                <img style="border-radius: 50%;  " src= "img/download.png" r alt="Facebook-icon "  width="60% ; "  ></div>
+                                
+            </div>
+            <div class="foooter">&copy; 2022 <span>SDF Qena</span> All Right Reserved</div>
+        </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>

@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto' , sans-serif ;
+}
+
+
+
+.nav
+{
+    padding: 2px 10vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+.brand-logo
+{
+    height: 60px;
+}
+
+.nav-items
+{
+    display: flex;
+    align-items: center;
+}
+
+.search
+{
+    width: 500px;
+    display: flex;
+}
+
+.search-box
+{
+    width: 80%;
+    height: 40%;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius : 10px;
+    border: 1px solid #d1d1d1;
+    text-transform: capitalize;
+    background: none;
+    color: #a9a9a9;
+    outline: none;
+} 
+
+.search-btn
+{
+    width: 20%;
+    height: 37px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #383838;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.search-box::placeholder
+{
+    color: #a9a9a9;
+}
+
+.nav-items a
+{
+    margin-left: 20px;
+}
+
+.nav-items a img
+{
+    width: 30px;
+}
+
+.links-cont
+{
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #d1d1d1;
+    background-color: #e7dccf;
+    font-style: revert;
+    font-weight: 900;
+}
+
+
+.link
+{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #ff0052;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+
+.link.link:hover
+{
+    opacity: 1;
+}
+
+
+.hero-section
+{
+    width: 100%;
+    height:650px;
+    background-image: url(img/header.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product
+{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+    background-color: #e7dccf;
+}
+
+.product-cat
+{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+
+.product-container
+{
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+
+.product-card
+{
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
+}
+
+.product-image
+{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.product-thumb
+{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.discount-tag
+{
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ff7d7d;
+    right: 10px;
+    top: 10px;
+    text-transform: capitalize;
+}
+
+.card-btn
+{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+.card-btn:hover
+{
+    background-color: rgb(253, 147, 147);
+}
+
+
+.pre-btn , .nxt-btn
+{
+    border: none;
+    width: 10vw;
+    height: 50%;
+    position: absolute;
+    top: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+}
+
+.pre-btn
+{
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.nxt-btn
+{
+    right: 0;
+}
+
+/* collection */ 
+
+.collection-container
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+
+.collection
+{
+    position: relative;
+}
+
+.collection img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.collection p
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+
+.collection:nth-child(3)
+{
+    grid-column: span 2;
+    margin-bottom: 10px;
+}
+
+
+footer
+{
+    position: relative;
+    width: 100%;
+    padding: 0px 10vw;
+    padding-bottom: 0px;
+    background:  #8f5c5c;;
+}
+
+.footer-content
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-content .logo
+{
+    height: 160px;
+}
+
+.foooter {
+    background-color: #722e2e;
+    text-align: center;
+    color: white;
+    padding: 30px 10px;
+    font-size: 18px;
+    width: 112%;
+  }
+
+  .foooter span {
+    font-weight: bold;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  

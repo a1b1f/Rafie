@@ -1,0 +1,15 @@
+body{
+    background-image: url("img/unnamed.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form{
+    text-align: center;
+    color: #ff5722;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 200px;
+}
+.botton{
+    background: #31a531;
+    color: yellow;
+}
